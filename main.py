@@ -134,7 +134,6 @@ def main():
     print('Users:', users)
     print('#' * 100)
     print(f'Posts of user {user2.fullname}', user2.posts)
-
     Session.close()
 
 
